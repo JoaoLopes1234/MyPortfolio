@@ -235,13 +235,34 @@ h6 {
   left: 0;
 }
 
+/* Estilos para o botão */
+.button-download {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff; /* Azul */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-download:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/me.jpg") top center;
+  background: url("../img/Playground.png") top center;
   background-size: cover;
 }
 
